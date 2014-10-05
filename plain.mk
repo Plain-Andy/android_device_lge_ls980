@@ -14,8 +14,8 @@ PRODUCT_MODEL := LG-LS980
 PRODUCT_MANUFACTURER := lge
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+PRODUCT_COPY_FILES += \
+    vendor/plain/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
 
 PRODUCT_BUILD_PROP_OVERRIDES += 
 BUILD_FINGERPRINT=lge/g2_spr_us/g2:4.2.2/JDQ39B/LS980ZV7.1378543552:user/release-keys 
